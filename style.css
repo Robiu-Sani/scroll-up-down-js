@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition : .5s;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+div{
+    width: 450px;
+    height: 250px;
+    background: aqua;
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+}
+.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
